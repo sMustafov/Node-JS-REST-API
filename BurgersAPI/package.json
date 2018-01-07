@@ -1,0 +1,22 @@
+{
+  "name": "burgers-api",
+  "version": "1.0.0",
+  "description": "Burgers Rest API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sevgin Mustafov",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-rate-limit": "^2.11.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.0-rc2",
+    "mongoose-paginate": "^5.0.3"
+  }
+}
